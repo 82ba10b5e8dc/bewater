@@ -1,0 +1,11 @@
+{
+
+  "name": {
+    "message": "Bewater",
+    "description": "The extension's name"
+  },
+  "description": {
+    "message": "Get reminded about water",
+    "description": "A description about what the extension does"
+  }
+}

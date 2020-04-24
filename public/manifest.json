@@ -1,8 +1,11 @@
 {
   "manifest_version": 2,
-  "short_name": "React App",
+  "short_name": "__MSG_name__"",
   "description": "Get reminded about water",
-  "name": "Hydration",
+  "default_locale": "en",
+  "homepage_url": "https://github.com/82ba10b5e8dc/bewater",
+  "offline_enabled": true,
+  "name": "Bewater",
   "version": "1.0",
   "icons": {
     "48": "logo-48.png",
