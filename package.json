@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@types/chrome": "^0.0.104",
     "@types/theme-ui": "^0.3.1"
   }
 }

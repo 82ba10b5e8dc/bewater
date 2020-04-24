@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "short_name": "__MSG_name__"",
-  "description": "Get reminded about water",
+  "short_name": "__MSG_name__",
+  "description": "__MSG_description__",
   "default_locale": "en",
   "homepage_url": "https://github.com/82ba10b5e8dc/bewater",
   "offline_enabled": true,

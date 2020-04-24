@@ -7,5 +7,9 @@
   "description": {
     "message": "Get reminded about water",
     "description": "A description about what the extension does"
+  },
+  "popuptitle": {
+    "message": "Keep Watering",
+    "description": "Title for the popup application"
   }
 }
