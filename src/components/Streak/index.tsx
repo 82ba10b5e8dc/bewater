@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
 
-import { Flex, Box, Heading, Text } from 'theme-ui'
+import { Box, Heading, Text } from 'theme-ui'
 
 const Streak: FC = () => {
   return (
