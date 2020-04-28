@@ -8,8 +8,38 @@
     "message": "Get reminded about water",
     "description": "A description about what the extension does"
   },
-  "popuptitle": {
+  "popup_title": {
     "message": "Keep Watering",
     "description": "Title for the popup application"
+  },
+  "popup_subtitle": {
+    "message": "Your plant keeps growing each day you hit your goal",
+    "description": "Subtitle describing the for the popup"
+  },
+  "daily_title": {
+    "message": "Today's Log",
+    "description": "The current number of glasses of water"
+  },
+  "daily_subtitle": {
+    "message": "Reach your goal for today",
+    "description": "Supporting text for the daily log title"
+  },
+  "popup_reminder": {
+    "message": "I'll remind you to drink again in 2 hours",
+    "description": "Time until the next reminder from the extension"
+  },
+  "popup_praise": {
+    "message": "Good Job! You reached your goal for today",
+    "description": "Congratulations for the user reaching their goal"
+  },
+  "popup_ml": {
+    "message": "$AMOUNT$ ml",
+    "description": "The total ml of water drank by the user",
+    "placeholders": {
+      "amount" : {
+        "content" : "$1",
+        "example" : "0"
+      }
+    }
   }
 }

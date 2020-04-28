@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/browser": "^5.15.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "watch": "cra-build-watch",
     "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +42,7 @@
   },
   "devDependencies": {
     "@types/chrome": "^0.0.104",
-    "@types/theme-ui": "^0.3.1"
+    "@types/theme-ui": "^0.3.1",
+    "cra-build-watch": "^3.2.0"
   }
 }

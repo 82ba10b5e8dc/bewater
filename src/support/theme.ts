@@ -40,7 +40,8 @@ export default {
     background: '#fff',
     primary: '#0074ff',
     secondary: '#30c',
-    muted: '#f6f6f6'
+    muted: '#f6f6f6',
+    light: '#f0f0f0'
   },
   styles: {
     root: {
@@ -97,7 +98,11 @@ export default {
       lineHeight: 'body'
     },
     a: {
-      color: 'primary'
+      color: 'primary',
+      cursor: 'pointer'
+    },
+    button: {
+      cursor: 'pointer'
     },
     pre: {
       fontFamily: 'monospace',
@@ -125,6 +130,29 @@ export default {
     },
     img: {
       maxWidth: '100%'
+    }
+  },
+  buttons: {
+    icon: {
+      bg: 'transparent',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: 2,
+      borderRadius: '50%',
+      cursor: 'pointer',
+      height: 'auto',
+      '&:hover': {
+        bg: 'light'
+      }
+    }
+  },
+  heading: {
+    mb: 1,
+  },
+  text: {
+    caption: {
+      fontSize: 0
     }
   }
 }
