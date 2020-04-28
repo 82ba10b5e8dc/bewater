@@ -33,7 +33,7 @@
     "description": "Congratulations for the user reaching their goal"
   },
   "popup_ml": {
-    "message": "$AMOUNT$ ml",
+    "message": "$amount$ ml",
     "description": "The total ml of water drank by the user",
     "placeholders": {
       "amount" : {

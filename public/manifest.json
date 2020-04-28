@@ -1,10 +1,4 @@
 {
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "3e33e228f336dc6309aec12645c2228c3e5e6fa1",
-      "strict_min_version": "42.0"
-    }
-  },
   "manifest_version": 2,
   "short_name": "__MSG_name__",
   "description": "__MSG_description__",

@@ -42,6 +42,8 @@ const Counter: FC<Props> = () => {
       <Drop onClick={onDrink} active={index <= daily} key={index} />
     )))
 
+    console.log(daily * 250)
+
     return (
       <Fragment>
         <Flex
@@ -60,7 +62,7 @@ const Counter: FC<Props> = () => {
           </Grid>
 
           <Text color='primary'>
-            {browser.i18n.getMessage('popup_ml', daily * 250)}
+            {browser.i18n.getMessage('popup_ml', `${daily * 250}`)}
           </Text>
         </Flex>
 

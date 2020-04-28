@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Flex, ThemeProvider } from 'theme-ui'
 
 import Streak from 'components/Streak'
