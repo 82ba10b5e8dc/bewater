@@ -2,7 +2,11 @@ import React, { FC } from 'react'
 
 import { Box, Heading, Text } from 'theme-ui'
 
+import { useStore } from 'support/store'
+
 const Streak: FC = () => {
+  const { streak } = useStore()
+
   return (
     <Box
       p='3'
@@ -25,7 +29,7 @@ const Streak: FC = () => {
       </Heading>
 
       <Text variant='caption'>
-        Your current streak is 2 days
+        {browser.i18n.getMessage('current_streak', streak)}
       </Text>
     </Box>
   )

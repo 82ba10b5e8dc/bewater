@@ -133,6 +133,15 @@ export default {
     }
   },
   buttons: {
+    cursor: 'pointer',
+    area: {
+      bg: 'transparent',
+      padding: 1,
+      transition: 'background 0.125s ease',
+      '&:hover': {
+        bg: 'light'
+      }
+    },
     icon: {
       bg: 'transparent',
       display: 'flex',

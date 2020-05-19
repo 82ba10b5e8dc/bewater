@@ -32,6 +32,16 @@
     "message": "Good Job! You reached your goal for today",
     "description": "Congratulations for the user reaching their goal"
   },
+  "current_streak": {
+    "message": "Your current streak is $amount$ days",
+    "description": "The current streak the user has accomplished",
+    "placeholders": {
+      "amount": {
+        "content": "$1",
+        "example": "0"
+      }
+    }
+  },
   "popup_ml": {
     "message": "$amount$ ml",
     "description": "The total ml of water drank by the user",

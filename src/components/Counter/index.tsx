@@ -1,5 +1,5 @@
 import React, { Fragment, FC, useMemo } from 'react'
-import { Flex, Heading, Box, Grid, Text } from 'theme-ui'
+import { Button, Flex, Heading, Box, Grid, Text } from 'theme-ui'
 
 import { useStore } from 'support/store'
 
@@ -39,32 +39,28 @@ const Counter: FC<Props> = () => {
     }
 
     const elements = Array.from({ length: TOTAL }, (_, index) => ((
-      <Drop onClick={onDrink} active={index <= daily} key={index} />
+      <Drop active={index <= daily} key={index} />
     )))
-
-    console.log(daily * 250)
 
     return (
       <Fragment>
-        <Flex
-          py='2'
-          sx={{
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}
+        <Button
+          variant='area'
+          onClick={onDrink}
         >
-          <Grid
-            gap='1'
-            columns={[4]}
-          >
-            {elements}
-          </Grid>
+          <Flex py='3'>
+            <Grid
+              gap='1'
+              columns={[4]}
+            >
+              {elements}
+            </Grid>
 
-          <Text color='primary'>
-            {browser.i18n.getMessage('popup_ml', `${daily * 250}`)}
-          </Text>
-        </Flex>
+            <Text color='primary'>
+              {browser.i18n.getMessage('popup_ml', `${daily * 250}`)}
+            </Text>
+          </Flex>
+        </Button>
 
         <Text variant='caption'>
           {browser.i18n.getMessage('popup_reminder')}
@@ -81,13 +77,9 @@ const Counter: FC<Props> = () => {
         bg: 'muted'
       }}
     >
-      <Heading as='h4'>
+      <Heading variant='uppercase' as='h4'>
         {browser.i18n.getMessage('daily_title')}
       </Heading>
-
-      <Text variant='caption'>
-        {browser.i18n.getMessage('daily_subtitle')}
-      </Text>
 
       {content}
     </Box>

@@ -12,6 +12,10 @@ init({
 
 window.browser = window.browser || window.chrome
 
+browser.alarms.create("my-periodic-alarm", {
+  delayInMinutes: 1
+});
+
 ReactDOM.render(
   <StrictMode>
     <App />
