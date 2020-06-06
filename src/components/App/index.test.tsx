@@ -1,8 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { create } from 'react-test-renderer'
 
 import App from './index';
 
-test('renders learn react link', () => {
-  expect(true).toBe(true);
+test('it renders the correct markup', () => {
+  const tree = create(<App />)
+  .toJSON()
+
+  expect(tree).toMatchSnapshot();
 });

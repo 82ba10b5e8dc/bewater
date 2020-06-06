@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders the correct markup 1`] = `
+<div
+  className="css-fq6gh7"
+>
+  <div
+    className="css-o6kwa2"
+  >
+    <h4
+      className="css-164lcfj"
+    >
+      popup_title: undefined
+    </h4>
+    <div
+      className="css-65w75"
+    >
+      popup_subtitle: undefined
+    </div>
+    <h2
+      className="css-1zuj57"
+    >
+      <span
+        aria-label="plant"
+        role="img"
+      >
+        🌱
+      </span>
+    </h2>
+    <div
+      className="css-65w75"
+    >
+      current_streak: 0
+    </div>
+  </div>
+  <div
+    className="css-wtdg9b"
+  >
+    <h4
+      className="css-irxafe"
+    >
+      daily_title: undefined
+    </h4>
+    <button
+      className="css-1dwe9wr"
+      onClick={[Function]}
+    >
+      <div
+        className="css-bc24ax"
+      >
+        <div
+          className="css-yibix1"
+        >
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="#0074ff"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+          <svg
+            data-name="Layer 1"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.57.28a.81.81 0 00-1.14 0C11.08.65 3 9.38 3 15.14a9 9 0 0018 0C21 9.38 12.92.65 12.57.28z"
+              fill="grey"
+            />
+          </svg>
+        </div>
+        <div
+          className="css-1xbpbkw"
+        >
+          popup_ml: 0
+        </div>
+      </div>
+    </button>
+    <div
+      className="css-65w75"
+    >
+      popup_reminder: undefined
+    </div>
+  </div>
+</div>
+`;
